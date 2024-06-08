@@ -8,183 +8,227 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
 
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .wrapper {
+            height: 100vh;
+            overflow-x: hidden;
+            perspective: 10px;
+            /* padding-top: 700px; */
+        }
+
+        header {
+            position: relative;
+            height: 100%;
+            transform-style: preserve-3d;
+            z-index: -1;
+        }
+
+        .background {
+            transform: translateZ(-10px) scale(2);
+            position: absolute;
+            width: 100%;
+            z-index: -1;
+        }
+
+        .content {
+            color:#ff0000;
+        }
+
+        .naslov {
+            margin: 100px;
+            color:#ff0000;
+            font-size: large;
+        }
+    </style>
 </head>
 
 
 
 <body>
-    <h1>My Bullet Point List</h1>
-    <ul>
-        <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li>
-        <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li> <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-        <li>Fourth item</li>
-    </ul>
-
+    <div class="wrapper">
+        <header>
+            <img src="background.jpg" class="background">
+            <div class="naslov">
+                <h1>My Bullet Point List</h1>
+            </div>
+        </header>
+        <div class="content">
+            <ul>
+                <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li>
+                <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li> <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+                <li>Fourth item</li>
+            </ul>
+        </div>
+    </div>
 </body>
